@@ -1,7 +1,7 @@
-import { useEffect } from "react";
+
 function Header({title}){
     
-    useEffect(()=>document.title={title})
+    return <p>{title} </p>
 }
 
 export default Header;
